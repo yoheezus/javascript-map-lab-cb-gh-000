@@ -42,5 +42,6 @@ var coloredZebraStripes = zebraStripes.map( (stripe, i) => {
     } else {
         return Object.assign({}, stripe, {
             color: "white"
-    }
-} )
+        }
+    });
+});
