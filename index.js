@@ -34,7 +34,7 @@ var sortedRobots = robots.map(robot => {
     }
 })
 
-var coloredZebraStripes = zebraStripes.map( (stripe, i) => {
+var coloredZebaStripes = zebraStripes.map( (stripe, i) => {
     if (isEven(i)) {
         return Object.assign({}, stripe, {
             color: "black"
