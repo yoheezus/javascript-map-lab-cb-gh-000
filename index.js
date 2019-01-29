@@ -32,4 +32,4 @@ var sortedRobots = robots.map( robot => {
             alliance: "Autobots"
         })
     }
-}
+})
