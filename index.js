@@ -29,7 +29,7 @@ var sortedRobots = robots.map( robot => {
         })
     } else {
         Object.assign({}, robot, {
-            alliance: "Autobots"
+            robot.alliance: "Autobots"
         })
     }
 })
