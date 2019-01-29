@@ -31,5 +31,5 @@ var sortedRobots = robots.map( robot => {
         Object.assign({}, robot, {
             alliance: "Autobots"
             }
-    })
+    )
 });
